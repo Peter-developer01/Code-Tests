@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Bootstrap demo</title>
+<!-- 		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+			integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous"> -->
+			<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	</head>
+
+	<body>
+		<h1>Hello, world!</h1>
+		<!-- Nav tabs -->
+		<ul class="nav nav-tabs" id="navId">
+			<li class="nav-item">
+				<a href="#tab1Id" class="nav-link active">Active</a>
+			</li>
+			<li class="nav-item dropdown">
+				<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Dropdown</a>
+				<div class="dropdown-menu">
+					<a class="dropdown-item" href="#tab2Id">Action</a>
+					<a class="dropdown-item" href="#tab3Id">Another Beautify action</a>
+					<div class="dropdown-divider"></div>
+					<a class="dropdown-item" href="#tab4Id">Mega Action</a>
+				</div>
+			</li>
+			<li class="nav-item">
+				<a href="#tab5Id" class="nav-link">Another Super link</a>
+			</li>
+			<li class="nav-item">
+				<a href="#" class="nav-link disabled">Disabled</a>
+			</li>
+		</ul>
+		
+		<!-- Tab panes -->
+		<div class="tab-content">
+			<div class="tab-pane fade show active" id="tab1Id" role="tabpanel"></div>
+			<div class="tab-pane fade" id="tab2Id" role="tabpanel"></div>
+			<div class="tab-pane fade" id="tab3Id" role="tabpanel"></div>
+			<div class="tab-pane fade" id="tab4Id" role="tabpanel"></div>
+			<div class="tab-pane fade" id="tab5Id" role="tabpanel"></div>
+		</div>
+
+		jn6PA|4s'w/R"@#Oxn/NR?!gX^*?e^bovJhK7v61mcUyhzWA97yE%3cvyjX-HBEI?78zFfg!qN48POP#-63/W=ILujdR)p?R^ws|//8^~\DN|B!B!QdwRi(nA@%o~S%~caJBfjn6PA|4s'w/R"@#Oxn/NR?!gX^*?e^bovJhK7v61mcUyhzWA97yE%3cvyjX-HBEI?78zFfg!qN48POP#-63/W=ILujdR)p?R^ws|//8^~\DN|B!B!QdwRi(nA@%o~S%~caJBf
+		
+		<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+		<script>
+			$('#navId a').click(e => {
+				e.preventDefault();
+				$(this).tab('show');
+			});
+		</script>
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0/dist/js/bootstrap.bundle.min.js"
+			integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+			crossorigin="anonymous"></script>
+	</body>
+</html>
