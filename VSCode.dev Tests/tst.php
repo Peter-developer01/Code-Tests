@@ -13,7 +13,10 @@
 		return $name;
 	 }
 
-	 print_name("Peter");
+	 name = print_name("Peter");
+
+	 // console
+	 // console
 
 	 {
 		 echo "`text`";
@@ -21,4 +24,6 @@
 	 }
 
 	//! * @param String const Test
+
+	echo "Coding from VSCODE!";
 ?>
