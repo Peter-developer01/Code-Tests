@@ -5,6 +5,7 @@
 	/**
 	 * @phan-assert Console $consike
 	 * @param name(String) string === "throw"
+	 * @Peter-developer01 I love linux as you!!!
 	 */
 
 	 function print_name(string $name)
